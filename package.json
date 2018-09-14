@@ -1,0 +1,12 @@
+{
+  "name": "travis-node-dummy-project",
+  "description": "Simple Travis-CI check for JSHint (Code Linting)",
+  "author": "Benoît Hubert",
+  "version": "0.0.1",
+  "devDependencies": {
+    "jshint": "^2.9.6"
+  },
+  "scripts": {
+    "test": "jshint hello.js"
+  }
+}
